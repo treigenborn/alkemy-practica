@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Testimonios",
+    "src": "./images/ong-1.jpg",
+    "alt": "pie de imagen"
+  },
+  {
+    "src": "./images/ong-2.jpg",
+    "alt": "pie de imagen 2"
+  },
+  {
+    "src": "./images/ong-3.jpg",
+    "alt": "pie de imagen 3"
+  },
+  {
+    "src": "./images/ong-4.jpg",
+    "alt": "pie de imagen 4"
+  }
+]

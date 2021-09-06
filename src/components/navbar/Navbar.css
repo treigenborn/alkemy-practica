@@ -1,0 +1,54 @@
+.navbar-container {
+  margin: 0;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 60px;
+}
+.logo {
+  width: 184px;
+  height: 32px;
+  margin: auto 32px auto 62px;
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  width: 707px;
+  margin: auto 285px auto 39px;
+}
+
+.nav-item {
+  margin: 12.5px;
+  font-size: 15px;
+  color: #18a0fb;
+}
+.nav-login-buttons {
+  margin: 0 80px 0 0;
+  display: flex;
+}
+.nav-button {
+  font-size: 15px;
+  padding: 11px;
+  width: 130px;
+  height: 40px;
+  text-decoration: none;
+  margin: 6px;
+  border-radius: 6px;
+  border: none;
+  align-items: center;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.login {
+  border: 1px solid #18a0fb;
+  color: #18a0fb;
+  background-color: #fff;
+}
+
+.registrate {
+  color: #fff;
+  background-color: #18a0fb;
+}

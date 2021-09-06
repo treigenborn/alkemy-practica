@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import cardsData1 from './fixtures/cards1.json';
+import cardsData2 from './fixtures/cards2.json';
+import { Navbar, Hero, SupPageHero, Footer } from './components';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <Navbar />
+      <Hero />
+      <h1 className='texto-bienvenida'>Texto de bienvenida</h1>
+      <SupPageHero button={true} cardsData={cardsData1} />
+      <SupPageHero button={false} cardsData={cardsData2} />
+      <Footer />
     </div>
   );
 }

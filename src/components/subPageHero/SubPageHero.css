@@ -1,0 +1,25 @@
+.subPageHero-container {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+}
+.cards-title {
+  margin-top: 120px;
+  font-size: 48px;
+}
+.hero-card-container {
+  margin: 90px 0 65px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subPageHero-button {
+  border: 1px solid #18a0fb;
+  color: #18a0fb;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  width: 130px;
+  height: 40px;
+}
